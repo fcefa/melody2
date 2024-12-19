@@ -1,0 +1,32 @@
+<html>
+
+<head>
+  <title>Modelo Informacional</title>
+  <link rel="icon" href="imagenes/principal/icono.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="imagenes/principal/icono.ico" type="image/x-icon" />
+</head>
+
+<script type="text/javascript">
+function cambiarSize(){
+  var fs = document.getElementById('fsMedio');
+  if (fs.cols == '18%,*'){
+    fs.cols = '0%,*';
+  } else {
+    fs.cols = '18%,*';
+  }
+}
+</script>
+
+<frameset rows="56px,*" frameborder="no" border="0" framespacing="0">
+  <frame src="verEncabezado.html" name="cabeza" scrolling="no" noresize marginwidth="0" marginheight="0">
+
+  <frameset id="fsMedio" cols="18%,*" frameborder="no" border="0" framespacing="0">
+    <frame src="login.html" name="barra" scrolling="auto" noresize marginwidth="0" marginheight="0">
+    <frameset rows="*,25px" frameborder="no" border="0" framespacing="0">
+      <frame src="verCuerpo.html" name="cuerpo" scrolling="auto" noresize marginwidth="0" marginheight="0">
+      <frame src="verPie.html" name="pie" scrolling="no" resize marginwidth="0" marginheight="0">
+    </frameset>
+  </frameset>
+</frameset>
+
+</html>
