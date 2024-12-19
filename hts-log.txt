@@ -1,0 +1,13 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 19 Dec 2024 11:43:04 at http://fcefa.uto.edu.bo:8080/estudiante/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F  -%F  -%l "es, en, *" http://fcefa.uto.edu.bo:8080/estudiante/ -O1 "E:\Melodyofi\melody 3" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:43:14	Error: 	"Not Found" (404) at link fcefa.uto.edu.bo:8080/pagina.css (from fcefa.uto.edu.bo:8080/estudiante/verEncabezado.cetic)
+11:43:14	Error: 	"Not Found" (404) at link fcefa.uto.edu.bo:8080/funciones.js (from fcefa.uto.edu.bo:8080/estudiante/verEncabezado.cetic)
+
+HTTrack Website Copier/3.49-2 mirror complete in 10 seconds : 35 links scanned, 32 files written (80026 bytes overall) [86474 bytes received at 8647 bytes/sec]
+(2 errors, 0 warnings, 0 messages)
